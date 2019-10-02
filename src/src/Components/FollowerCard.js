@@ -7,9 +7,9 @@ const FollowerCard = (props) => {
     // const {login} = props.followerdata;
     // const {avatar_url} = props.followerdata;
     return (
-        <div>
+        <div className="section-two">
             {props.followerdata.map((item) => (
-                <div>
+                <div className="follower-container">
                 <h3>{item.login}</h3>
                 <img src={item.avatar_url}></img>
                 </div>

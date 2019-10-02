@@ -6,6 +6,7 @@ import UserCard from "./Components/UserCard";
 import FollowerCard from "./Components/FollowerCard"
 
 
+
 class App extends Component {
 
   state = {
@@ -42,7 +43,8 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-
+          My Github Group
+        </header>
           <UserCard
             userdata={this.state.data}
           />
@@ -50,7 +52,7 @@ class App extends Component {
             followerdata={this.state.followers}
           />
 
-        </header>
+       
 
       </div>
 
