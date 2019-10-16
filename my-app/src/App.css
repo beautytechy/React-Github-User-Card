@@ -1,0 +1,51 @@
+/* * {
+border: 1px dashed grey;  
+} */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: black;
+  margin: 10px;
+}
+.App-link {
+  color: #09d3ac;
+}
+
+.follower-container {
+  width: 20%;
+  margin: 20px 20px;
+}
+
+.follower-container img {
+  width: 250px;
+  border-radius: 50%;
+  padding: 20px;
+  margin: auto;
+}
+
+.section-two {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.user-container img {
+  width: 200px;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+
+
